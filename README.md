@@ -46,8 +46,7 @@ in Non-interactive mode
 $ echo "help" | ./console.py
 (hbnb)
 
-Documented commands (type help <topic>):
-========================================
+Documented commands (type help <topic>):                                                                                                                            ======================================== 
 EOF  help  quit
 (hbnb)
 $
@@ -57,8 +56,7 @@ $
 $ cat test_help | ./console.py
 (hbnb)
 
-Documented commands (type help <topic>):
-========================================
+Documented commands (type help <topic>):                                                                                                                            ======================================== 
 EOF  help  quit
 (hbnb)
 $
@@ -91,7 +89,7 @@ python3 -c 'print(__import__("my_module").MyClass.my_function.__doc__)'
 ### run test in interactive mode
 echo "python3 -m unittest discover tests" | bash
 
-###run test in non-interactive mode
+### run test in non-interactive mode
 To run the tests in non-interactive mode, and discover all the test, you can use the command:
 
 python3 -m unittest discover tests
@@ -105,8 +103,7 @@ $ ./console.py
 * Use help to see the available commands:
 (hbnb) help
 
-Documented commands (type help <topic>):
-========================================
+Documented commands (type help <topic>):                                                                                                                            ======================================== 
 EOF  all  count  create  destroy  help  quit  show  update
 
 (hbnb)
